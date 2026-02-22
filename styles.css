@@ -140,6 +140,9 @@ a {
 .btn-primary {
     background-color: var(--primary-color);
     color: var(--white);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn-primary:hover {
@@ -268,12 +271,20 @@ a {
 
 .header-social-link {
     color: var(--white);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
     transition: all var(--transition-fast);
 }
 
 .header-social-link:hover {
     transform: translateY(-2px);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .mobile-menu-btn {
@@ -553,6 +564,11 @@ a {
     background-color: var(--naver-color);
     color: var(--white);
     border: 2px solid var(--naver-color);
+    padding: 0.55rem 1.8rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
 }
 
 .btn-naver:hover {
@@ -571,6 +587,11 @@ a {
     background-color: var(--insta-color);
     color: var(--white);
     border: 2px solid var(--insta-color);
+    padding: 0.55rem 1.8rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
 }
 
 .btn-insta:hover {
@@ -981,6 +1002,13 @@ a {
     cursor: pointer;
     transition: all 0.3s ease;
     text-decoration: none;
+    line-height: 0;
+}
+
+.fab i {
+    display: block;
+    margin-top: -1px;
+    /* Subtle visual centering adjustment */
 }
 
 .fab:hover {
