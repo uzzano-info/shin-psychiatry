@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>신상은 정신건강의학과 의원</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Global Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="#">
+                    <span class="logo-text">신상은 정신건강의학과 의원</span>
+                    <span class="logo-sub">Shin, Sang-eun Psychiatric Clinic</span>
+                </a>
+            </div>
+
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#about">병원소개</a></li>
+                    <li><a href="#treatments">전문클리닉</a></li>
+                    <li><a href="#clinic-tour">병원둘러보기</a></li>
+                    <li><a href="#social">커뮤니티</a></li>
+                    <li><a href="#location">오시는길</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-utils">
+                <div class="social-icons-header">
+                    <a href="https://blog.naver.com/shin-psychiatry" target="_blank" title="네이버 블로그"
+                        class="header-social-link">
+                        <i class="fas fa-blog"></i>
+                    </a>
+                    <a href="https://www.instagram.com/shin.psychiatry/" target="_blank" title="인스타그램"
+                        class="header-social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <button class="mobile-menu-btn" aria-label="메뉴 열기">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <!-- Background Image: 실제 로비 사진 사용 -->
+            <div class="hero-bg" style="background-image: url('images/hero.jpeg'); background-position: center 60%;">
+            </div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content fade-up">
+                <h1 class="hero-title">몸과 마음의<br>진정한 회복을 돕습니다.</h1>
+                <p class="hero-subtitle">가장 편안하고 신뢰할 수 있는 공간, 신상은 정신건강의학과 의원입니다.</p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-secondary">원장 소개</a>
+                    <a href="#location" class="btn btn-outline-white">네이버 지도 보기</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Philosophy & Doctor -->
+        <section class="philosophy section" id="about">
+            <div class="container">
+                <div class="section-header fade-up">
+                    <h2 class="section-title">인사말 및 원장소개</h2>
+                    <p class="section-desc">환자분의 마음에 안정을 드리는 따뜻한 진료를 약속합니다.</p>
+                </div>
+
+                <div class="philosophy-grid">
+                    <div class="doctor-profile fade-up">
+                        <!-- 실제 진료실 사진 사용 -->
+                        <div class="doctor-image-placeholder photo-bg"
+                            style="background-image: url('images/bg_03.jpeg');">
+                        </div>
+                        <div class="doctor-info">
+                            <h3 class="doctor-name">신상은 <span class="position">원장 / 정신건강의학과 전문의</span></h3>
+                            <ul class="doctor-history" style="font-size: 0.95rem;">
+                                <li style="font-weight: 600; color: var(--primary-color); margin-top: 10px;">[학력 및 교수]
+                                </li>
+                                <li>인하대학교 의과대학 졸업</li>
+                                <li>의학박사 (정신건강의학)</li>
+                                <li>인하대학교 의과대학 정신건강의학과 외래교수</li>
+                                <li>대한노인정신의학회 노인인증의</li>
+
+                                <li style="font-weight: 600; color: var(--primary-color); margin-top: 10px;">[주요 경력]
+                                </li>
+                                <li>서울시 은평병원 일반정신과 과장 및 지도전문의</li>
+                                <li>인천기독병원 정신과 과장 및 지도전문의</li>
+                                <li>인하대병원 정신건강의학과 임상강사 및 지도전문의</li>
+                                <li>국민연금관리공단 자문의사</li>
+
+                                <li style="font-weight: 600; color: var(--primary-color); margin-top: 10px;">[학회 활동]
+                                </li>
+                                <li>대한신경정신의학회 정회원</li>
+                                <li>대한조현병학회 평생회원</li>
+                                <li>대한소아청소년정신의학회 정회원</li>
+                                <li>대한노인정신의학회 정회원</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="philosophy-content fade-up" style="transition-delay: 0.2s;">
+                        <ul class="philosophy-list">
+                            <li>
+                                <div class="icon-box"><i class="fas fa-door-open"></i></div>
+                                <div class="text-box">
+                                    <h4>편안한 소통의 공간</h4>
+                                    <p>진료실 문을 여는 순간부터 마음의 짐을 내려놓으실 수 있도록, 쾌적하고 차분한 환경을 준비했습니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-box"><i class="fas fa-notes-medical"></i></div>
+                                <div class="text-box">
+                                    <h4>근거 중심 치료 (EBM)</h4>
+                                    <p>최신 의학 지견과 체계적인 진단 프로세스를 바탕으로 내담자에게 꼭 맞는 최적의 치료 방향을 제시합니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-box"><i class="fas fa-shield-alt"></i></div>
+                                <div class="text-box">
+                                    <h4>철저한 비밀 관리</h4>
+                                    <p>환자분의 진료 기록과 상담 내용은 의료법에 의거하여 가장 안전하게 최우선적으로 보호됩니다.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Treatments (전문클리닉) -->
+        <section class="treatments section bg-light" id="treatments">
+            <div class="container">
+                <div class="section-header text-center fade-up">
+                    <h2 class="section-title">전문 클리닉</h2>
+                    <p class="section-desc">일상의 불편함을 유발하는 다양한 증상에 대해 심층적이고 체계적인 치료를 제공합니다.</p>
+                </div>
+
+                <div class="treatments-grid">
+                    <div class="treatment-card fade-up" onclick="showTreatmentDetail('insomnia')">
+                        <div class="card-icon"><i class="fas fa-moon"></i></div>
+                        <h3 class="card-title">불면증 / 우울증</h3>
+                        <p class="card-text">잠들기 어렵거나 자주 깨는 수면 장애, 그리고 무기력감과 슬픔이 지속되는 우울증을 치료합니다.</p>
+                        <div class="btn-more">더보기 <i class="fas fa-arrow-right"></i></div>
+                    </div>
+
+                    <div class="treatment-card fade-up" style="transition-delay: 0.1s;"
+                        onclick="showTreatmentDetail('panic')">
+                        <div class="card-icon"><i class="fas fa-heartbeat"></i></div>
+                        <h3 class="card-title">공황장애 / 스트레스</h3>
+                        <p class="card-text">갑작스러운 극심한 불안감과 신체 증상, 만성적인 스트레스로 인한 심신의 소진을 회복시킵니다.</p>
+                        <div class="btn-more">더보기 <i class="fas fa-arrow-right"></i></div>
+                    </div>
+
+                    <div class="treatment-card fade-up" style="transition-delay: 0.2s;"
+                        onclick="showTreatmentDetail('adhd')">
+                        <div class="card-icon"><i class="fas fa-brain"></i></div>
+                        <h3 class="card-title">성인 ADHD</h3>
+                        <p class="card-text">주의력 결핍, 과잉행동, 충동성으로 인해 직장 및 일상생활에서 겪는 어려움을 구조적으로 지원합니다.</p>
+                        <div class="btn-more">더보기 <i class="fas fa-arrow-right"></i></div>
+                    </div>
+
+                    <div class="treatment-card fade-up" style="transition-delay: 0.3s;"
+                        onclick="showTreatmentDetail('emdr')">
+                        <div class="card-icon"><i class="fas fa-hands-helping"></i></div>
+                        <h3 class="card-title">EMDR (트라우마)</h3>
+                        <p class="card-text">과거의 상처를 치유하는 안구운동 민감소실 및 재처리 요법(EMDR)을 통해 심리적 회복을 돕습니다.</p>
+                        <div class="btn-more">더보기 <i class="fas fa-arrow-right"></i></div>
+                    </div>
+                </div>
+
+                <!-- Hidden Content for Modals -->
+                <div id="clinic-details" style="display: none;">
+                    <!-- Insomnia -->
+                    <div id="detail-insomnia">
+                        <h3 class="modal-title">불면증 클리닉</h3>
+                        <div class="modal-body">
+                            <h4>불면증이란?</h4>
+                            <p>불면증은 다양한 신체적 요인과 심리적 요인에 의해 발생할 수 있습니다. 여러 신체질환과 정신과적 질환에서 불면증은 흔히 동반됩니다. 또 스트레스나 주변 환경의
+                                변화로도 불면증이 나타납니다.</p>
+                            <p>따라서 불면증 초기에는 이것이 단순히 수면의 문제인지, 아니면 다른 질환과 연관되어 나타나는 것은 아닌지 평가하는 것이 중요합니다. 예를 들어 갑상선 질환이나
+                                류마티스 질환, 우울증으로 인해 불면증이 생겼다면 원인 질환의 치료와 병행해야 합니다.</p>
+                            <h4>불면증의 치료</h4>
+                            <ul>
+                                <li>불면증으로 병원을 찾을 경우 우선 원인을 찾도록 합니다.</li>
+                                <li>잘못된 생활 습관이 원인인 경우 수면위생을 개선하도록 합니다.</li>
+                                <li>우울증이나 불안증등 다른 정신과 질환이 동반되어 있다면 함께 치료 하도록 합니다.</li>
+                                <li>이러한 노력에도 호전이 없다면 약물치료를 시도합니다.</li>
+                            </ul>
+                            <p>불면증의 약물 치료는 수면제를 무분별하게 복용하기 보다는 전문의와 상의하여 습관성이 생기지 않을 수 있는 적절한 약물 중에 충분히 잠을 유도할 수 있는 약을
+                                찾아 보도록 합니다.</p>
+                            <p>불면증이 생긴 심리적인 원인이 비교적 명확한 경우 이를 초점으로 한 심리치료를 하는 것이 보다 근본적인 도움이 됩니다.</p>
+                        </div>
+                    </div>
+
+                    <!-- Panic -->
+                    <div id="detail-panic">
+                        <h3 class="modal-title">공황장애 / 스트레스 클리닉</h3>
+                        <div class="modal-body">
+                            <h4>공황장애란?</h4>
+                            <p>공황장애는 특별한 이유 없이 예상치 못하게 나타나는 극단적인 불안증상, 즉 공황발작이 특징입니다. 공황발작은 극도의 공포심이 느껴지면서 심장이 터지도록 빨리
+                                뛰거나 가슴이 답답하고 숨이 차며 땀이 나는 등 신체 증상이 동반된 죽을 것 같은 극도의 불안 증상을 말합니다.</p>
+                            <h4>공황장애의 치료</h4>
+                            <h4>1. 약물치료</h4>
+                            <p>항불안제와 항우울제 계통의 약물이 쓰입니다. 대부분의 경우 약물 치료로 증상의 호전을 경험합니다.</p>
+                            <h4>2. 인지행동치료</h4>
+                            <p>약물치료와 함께 인지행동치료가 함께 이루어질 때 치료 효과가 배가 된다고 알려져 있습니다. 공황 발작을 경험한 사람은 이에 대해 항상 불안해 하면서 그 상황을
+                                자꾸 피하려 하고 작은 단서에도 불안해 합니다. 이런 생각과 행동을 치료자와 함께 찾아내고 교정하는 치료가 인지행동 치료입니다.</p>
+                        </div>
+                    </div>
+
+                    <!-- ADHD -->
+                    <div id="detail-adhd">
+                        <h3 class="modal-title">성인 ADHD 클리닉</h3>
+                        <div class="modal-body">
+                            <p>ADHD는 'attention deficit hyperactivity disorder'의 약자로 주의력결핍 과잉행동장애를 의미합니다. 보통 ADHD는 소아의
+                                질환으로 인식되지만 성인 중에서도 ADHD 증상을 보이는 경우가 많습니다.</p>
+                            <p>성인의 경우에는 업무의 실수가 잦거나 시간 관리나 계획을 세우기 어려운 등의 주의력 결핍 외에도, '욱' 하며 화를 내는 일이 잦거나 잦은 이직, 과소비, 게임
+                                중독 등 과잉행동/충동성의 특징을 보이는 경우가 많습니다.</p>
+                            <h4>치료방법</h4>
+                            <h4>1. 약물치료</h4>
+                            <p>ADHD는 대뇌에서 도파민, 노르아드레날린 등 신경전달물질의 이상에서 비롯된 것이라고 합니다. 이러한 생물학적 문제를 치료하기 위해 약물 치료를 시행할 수
+                                있습니다. ADHD의 약물 치료는 건강보험 적용도 되며 전문의의 처방하에 복용하면 단기간에 좋은 효과를 거둘 수 있습니다.</p>
+                            <h4>2. 인지행동치료</h4>
+                            <p>성인 ADHD의 인지 행동 치료는 크게 계획 세우기, 조직화, 시간 관리 등을 훈련합니다. 매뉴얼 만들기, 어플 이용하기, 실수 노트 등을 이용하는 것만으로도
+                                많은 도움을 받을 수 있습니다.</p>
+                            <h4>3. 공존 질환 치료</h4>
+                            <p>우울, 불안 등 정서적인 어려움이 함께 있는 경우가 많기 때문에 공존 질환의 치료는 성인 ADHD 치료의 성공에 매우 중요합니다.</p>
+                        </div>
+                    </div>
+
+                    <!-- EMDR -->
+                    <div id="detail-emdr">
+                        <h3 class="modal-title">EMDR (트라우마) 클리닉</h3>
+                        <div class="modal-body">
+                            <h4>트라우마와 EMDR</h4>
+                            <p>어린 시절의 상처 받은 기억들, 재난, 사고 등 과거의 고통스러웠던 기억이 처리되지 못한 채 뇌의 변연계에 주로 저장됩니다. 처리되지 않은 고통스러운 기억들은
+                                그 당시의 장면, 감정, 신체 감각 등의 단편적인 형태로 남아 현재의 고통으로 이어집니다.</p>
+                            <p>EMDR(안구운동 민감소실 및 재처리 요법)과 같은 치료법을 이용하여 과거 기억의 고통스러운 부분을 처리하여 좀 더 건강하게 대처할 수 있도록 돕습니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clinic Tour (실제 사진 갤러리 활용) -->
+        <section class="clinic-tour section" id="clinic-tour">
+            <div class="container">
+                <div class="section-header text-center fade-up">
+                    <h2 class="section-title">병원 둘러보기</h2>
+                    <p class="section-desc">환자분들이 머무는 쾌적하고 편안한 공간입니다.</p>
+                </div>
+
+                <div class="tour-grid">
+                    <!-- 입구 사진 -->
+                    <div class="tour-item fade-up">
+                        <img src="images/bg_04.jpeg" alt="신상은 정신건강의학과 의원 입구" class="tour-img">
+                        <div class="tour-caption">의원 입구 및 복도</div>
+                    </div>
+                    <!-- 접수처 로비 사진 -->
+                    <div class="tour-item fade-up" style="transition-delay: 0.1s;">
+                        <img src="images/hero.jpeg" alt="카페같은 로비와 안내데스크" class="tour-img">
+                        <div class="tour-caption">안내데스크 및 로비</div>
+                    </div>
+                    <!-- 대기실 사진 -->
+                    <div class="tour-item fade-up" style="transition-delay: 0.2s;">
+                        <img src="images/bg_02.jpeg" alt="편안한 휴식을 위한 쾌적한 대기실" class="tour-img">
+                        <div class="tour-caption">쾌적한 대기 공간</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Connect Social -->
+        <section class="social-connect section" id="social">
+            <div class="container">
+                <div class="social-box fade-up">
+                    <div class="social-text">
+                        <h2>공식 채널에서 더 많은 소식을 만나보세요</h2>
+                        <p>원장님의 이야기, 정신건강 칼럼, 진료 안내 등 유익한 정보를 지속적으로 업데이트합니다.</p>
+                    </div>
+                    <div class="social-actions">
+                        <a href="https://blog.naver.com/shin-psychiatry" target="_blank" class="btn btn-naver">
+                            <span class="naver-icon">N</span> 네이버 블로그 방문하기
+                        </a>
+                        <a href="https://www.instagram.com/shin.psychiatry/" target="_blank" class="btn btn-insta">
+                            <i class="fab fa-instagram"></i> 인스타그램 방문하기
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <!-- FAQ Section -->
+        <section class="faq section bg-light" id="faq">
+            <div class="container">
+                <div class="section-header text-center fade-up">
+                    <h2 class="section-title">자주 묻는 질문</h2>
+                    <p class="section-desc">처음 방문하시는 분들이 가장 궁금해하시는 내용을 모았습니다.</p>
+                </div>
+                <div class="faq-list">
+                    <div class="faq-item fade-up">
+                        <div class="faq-q">
+                            <span class="q-mark">Q</span> 정신건강의학과 진료 기록이 남으면 취업이나 보험 가입에 불이익이 있나요?
+                        </div>
+                        <div class="faq-a">
+                            <p>의료법에 따라 본인의 동의 없이는 어떤 기관(회사, 건강보험공단, 사보험사 등)에서도 진료 기록을 열람할 수 없습니다. 따라서 취업 과정에서도 절대 불이익이 발생하지 않으며, 안심하고 내원하셔도 됩니다.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item fade-up" style="transition-delay: 0.1s;">
+                        <div class="faq-q">
+                            <span class="q-mark">Q</span> 처음 방문하는데 예약이 필수인가요?
+                        </div>
+                        <div class="faq-a">
+                            <p>초진의 경우 심층적인 상태 파악과 정확한 진단을 위해 충분한 진료 시간이 필요합니다. 원활하고 여유로운 진료를 위해 가급적 사전 예약을 부탁드립니다.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item fade-up" style="transition-delay: 0.2s;">
+                        <div class="faq-q">
+                            <span class="q-mark">Q</span> 약물 복용 없이 상담만 받고 싶은데 가능한가요?
+                        </div>
+                        <div class="faq-a">
+                            <p>네, 가능합니다. 원장님과의 치유적 면담(지지정신치료)을 통해 심리적 어려움을 해소하는 방향으로도 진행할 수 있으며, 환자분의 의사를 존중하여 가장 편안한 방향으로 치료 방침을 결정합니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- Location & Clinic Hours -->
+        <section class="location section" id="location">
+            <div class="container">
+                <div class="section-header text-center fade-up">
+                    <h2 class="section-title">오시는 길 및 진료 안내</h2>
+                </div>
+
+                <div class="location-grid">
+                    <!-- Map using direct Map Link -->
+                    <div class="map-area fade-up">
+                        <a href="https://naver.me/x1VzyfWC" target="_blank" class="map-placeholder-link">
+                            <div class="map-placeholder photo-bg"
+                                style="background-image: url('images/naver_map.jpeg'); border: none;">
+                                <div
+                                    style="background: rgba(255,255,255,0.8); padding: 1.5rem; border-radius: 15px; text-align: center; box-shadow: var(--shadow-md);">
+                                    <i class="fas fa-map-marked-alt"
+                                        style="color: var(--primary-color); font-size: 2.5rem; margin-bottom: 0.5rem;"></i>
+                                    <h3 style="color: var(--dark-color); margin: 0;">네이버 지도에서 보기</h3>
+                                    <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.5rem;">경기 성남시
+                                        분당구 성남대로926번길 6<br>야탑 대덕프라자 (야탑역 1번 출구)</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Info -->
+                    <div class="info-area fade-up" style="transition-delay: 0.2s;">
+                        <div class="info-block">
+                            <h3><i class="far fa-clock"></i> 진료 시간 안내</h3>
+                            <table class="time-table">
+                                <tbody>
+                                    <tr>
+                                        <th>평일</th>
+                                        <td>10:00 ~ 19:00</td>
+                                    </tr>
+                                    <tr>
+                                        <th>토요일</th>
+                                        <td>09:00 ~ 13:30 <span class="badge">점심시간 없음</span></td>
+                                    </tr>
+                                    <tr>
+                                        <th>점심시간</th>
+                                        <td>13:00 ~ 14:00 <span class="badge">평일 해당</span></td>
+                                    </tr>
+                                    <tr>
+                                        <th>일/공휴일</th>
+                                        <td class="text-danger">휴진 (3/1 삼일절 휴무)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p class="mt-2 text-sm text-muted">*자세한 임시 휴무 일정은 네이버 블로그 공지사항을 확인해주세요.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <span class="logo-text">신상은 정신건강의학과 의원</span>
+                </div>
+                <!-- 하단 소셜 링크 중복 배치로 접근성 강화 -->
+                <div class="footer-social-links">
+                    <a href="https://blog.naver.com/shin-psychiatry" target="_blank" title="네이버 블로그"><i
+                            class="fas fa-blog"></i></a>
+                    <a href="https://www.instagram.com/shin.psychiatry/" target="_blank" title="인스타그램"><i
+                            class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-info">
+                <p>의원명: 신상은 정신건강의학과의원</p>
+                <p>
+                    <span>대표원장: 신상은</span>
+                    <span class="divider">|</span>
+                    <span>주소: 경기 성남시 분당구 성남대로926번길 6 야탑 대덕프라자</span>
+                </p>
+                <p>
+                    <span>공식 홈페이지: <a href="http://shin-psychiatry.com/" target="_blank">shin-psychiatry.com</a></span>
+                </p>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright">ⓒ Shin, Sang-eun Psychiatric Clinic. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+
+    <!-- Floating Action Buttons -->
+    <div class="fab-container">
+        <!-- 네이버 지도 빠른 안내 -->
+        <a href="https://naver.me/x1VzyfWC" target="_blank" class="fab fab-map" title="오시는 길 (네이버 지도)">
+            <i class="fas fa-map-marked-alt"></i>
+        </a>
+        <!-- 전화 문의 -->
+        <a href="tel:031-709-1234" class="fab fab-call" title="전화 상담 및 예약">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+        <!-- 맨 위로 -->
+        <div class="fab fab-top" id="fab-top" title="맨 위로 가기">
+            <i class="fas fa-arrow-up"></i>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
