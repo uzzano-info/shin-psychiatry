@@ -285,9 +285,7 @@ a {
 
 .header-social-link i,
 .header-social-link .naver-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* inner flex removed */
 }
 
 .header-social-link:hover {
@@ -753,10 +751,7 @@ a {
 }
 
 .footer-social-links a i {
-    line-height: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* inner flex removed */
 }
 
 .footer-social-links a:hover {
@@ -1013,7 +1008,7 @@ a {
     z-index: 999;
 }
 
-.fab {
+.floating-btn {
     width: 48px;
     height: 48px;
     border-radius: 50%;
@@ -1029,13 +1024,11 @@ a {
     line-height: 1;
 }
 
-.fab i {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.floating-btn i {
+    /* inner flex removed */
 }
 
-.fab:hover {
+.floating-btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 5px 18px rgba(0, 0, 0, 0.25);
 }
