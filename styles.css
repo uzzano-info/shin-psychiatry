@@ -280,6 +280,14 @@ a {
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
     transition: all var(--transition-fast);
+    line-height: 1;
+}
+
+.header-social-link i,
+.header-social-link .naver-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .header-social-link:hover {
@@ -564,11 +572,19 @@ a {
     background-color: var(--naver-color);
     color: var(--white);
     border: 2px solid var(--naver-color);
-    padding: 0.55rem 1.8rem;
+    padding: 0.5rem 1.8rem;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
+    line-height: 1;
+}
+
+.btn-naver .naver-icon {
+    font-weight: 800;
+    font-size: 0.9em;
+    transform: translateY(1px);
+    /* Match text baseline */
 }
 
 .btn-naver:hover {
@@ -577,21 +593,22 @@ a {
     border-color: var(--naver-color);
 }
 
-.naver-icon {
-    font-weight: 900;
-    margin-right: 5px;
-    display: inline-block;
-}
-
 .btn-insta {
     background-color: var(--insta-color);
     color: var(--white);
     border: 2px solid var(--insta-color);
-    padding: 0.55rem 1.8rem;
+    padding: 0.5rem 1.8rem;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
+    line-height: 1;
+}
+
+.btn-insta i {
+    font-size: 1.1em;
+    transform: translateY(1px);
+    /* Match text baseline */
 }
 
 .btn-insta:hover {
@@ -733,6 +750,13 @@ a {
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
     transition: all var(--transition-fast);
+}
+
+.footer-social-links a i {
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer-social-links a:hover {
@@ -997,18 +1021,18 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.05rem;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+    font-size: 1.2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     cursor: pointer;
     transition: all 0.3s ease;
     text-decoration: none;
-    line-height: 0;
+    line-height: 1;
 }
 
 .fab i {
-    display: block;
-    margin-top: -1px;
-    /* Subtle visual centering adjustment */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .fab:hover {
