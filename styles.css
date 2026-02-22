@@ -788,11 +788,31 @@ a {
 
 @media (max-width: 768px) {
     .section {
-        padding: 4rem 0;
+        padding: 3.5rem 0;
+    }
+
+    .hero {
+        padding: 0 1.5rem;
     }
 
     .hero-title {
-        font-size: 2.8rem;
+        font-size: 2.4rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+        gap: 0.8rem;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
     }
 
     .nav,
@@ -805,13 +825,13 @@ a {
     }
 
     .header.scrolled {
-        padding: 1rem 0;
+        padding: 0.8rem 0;
     }
 
     .philosophy-grid,
     .location-grid {
         grid-template-columns: 1fr;
-        gap: 2rem;
+        gap: 2.5rem;
     }
 
     .treatments-grid,
@@ -819,18 +839,54 @@ a {
         grid-template-columns: 1fr;
     }
 
+    .doctor-info {
+        padding: 1.5rem;
+    }
+
     .social-box {
-        padding: 2.5rem 1.5rem;
+        padding: 2.5rem 1.2rem;
     }
 
     .social-actions {
         flex-direction: column;
+        width: 100%;
+    }
+
+    .social-actions .btn {
+        width: 100%;
     }
 
     .footer-top {
         flex-direction: column;
         align-items: flex-start;
         gap: 1.5rem;
+    }
+
+    .modal-container {
+        padding: 1.8rem 1.2rem;
+        width: 95%;
+        margin-top: 10px;
+    }
+
+    .modal-title {
+        font-size: 1.4rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .faq-item {
+        padding: 1.5rem;
+    }
+
+    .fab-container {
+        bottom: 16px;
+        right: 16px;
+        gap: 10px;
+    }
+
+    .floating-btn {
+        width: 44px;
+        height: 44px;
+        font-size: 1.1rem;
     }
 }
 
